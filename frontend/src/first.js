@@ -1,8 +1,12 @@
 import React, { useEffect } from 'react';
 import anime from 'animejs';
 import './First.css'
+import { useNavigate } from 'react-router-dom';
 const First = () => {
-
+  const navigate = useNavigate()
+  const handleClick = () => {
+    navigate('/second')
+  }
   return (
     <div className='headcontainer'>
 
@@ -36,7 +40,7 @@ const First = () => {
             <h3 className='events'>Events</h3>
             <p><i class='bx bx-chevron-up' style={{ color: '#ff69b4' }} ></i></p>
           </div>
-          <p className="sidedropdownselect">New Requests</p>
+          <p className="sidedropdownselect" onClick={handleClick}>New Requests</p>
           <p className="sidedropdown">Estimate </p>
           <p className="sidedropdown">Events</p>
           <p className="sidedropdown">Partial Requests </p>
