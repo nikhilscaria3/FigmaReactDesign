@@ -1,0 +1,21 @@
+[build]
+  command = "npm install && npm run build"  # Adjust if needed
+  publish = "build"  # Adjust if your build output directory is different
+
+[build.environment]
+  NODE_VERSION = "18"  # Adjust to your Node.js version
+
+# Optional: Uncomment the following lines if you want to configure redirects or headers
+# [[redirects]]
+#   from = "/*"
+#   to = "/index.html"
+#   status = 200
+
+# [[headers]]
+#   for = "/*"
+#   [headers.values]
+#     Cache-Control = "public, max-age=0, must-revalidate"
+
+# Uncomment the following line if you want to enable server-side rendering (SSR) for React
+# [[plugins]]
+#   package = "@netlify/plugin-nextjs"
