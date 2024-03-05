@@ -1,0 +1,236 @@
+body {
+  color: #ffffff;
+}
+/* ///second screen */
+.userdetailscontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+}
+
+.infosquare,
+.bellicon {
+  font-size: 34px;
+  margin-right: 10px;
+}
+
+.username {
+  display: flex;
+  gap: 3px;
+}
+
+.usernamecontainer span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.usernamecontainer p {
+  font-size: 14px;
+  margin: 0;
+  /* Remove default margin */
+}
+
+.userimage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  border: 1px #ff69b4 solid;
+  /* Add additional styles for your user image */
+}
+
+
+
+.eventsearchcontainer {
+  margin: 10px;
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+}
+
+.eventsearchcontainer h2 {
+  margin: 0;
+}
+
+.mainsearch-wrapper {
+  display: flex;
+  gap: 5px;
+}
+
+/* Style for the search wrapper */
+.search-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the search input */
+.searchinput {
+  background: transparent;
+  width: 300px;
+
+  border-radius: 10px;
+  border: 1px white solid;
+  padding: 10px;
+  /* Adjust the padding to make space for the icon */
+}
+
+/* Style for the search icon */
+.search-icon {
+  position: absolute;
+  left: 10px;
+  /* Adjust the left position to align the icon */
+  font-size: 20px;
+  /* Adjust the font size of the icon */
+  pointer-events: none;
+  /* Ensure the icon does not interfere with input events */
+}
+
+/* Style for the placeholder text and icon */
+.searchinput::placeholder {
+  position: relative;
+  padding-left: 30px;
+  /* Adjust the padding to make space for the icon */
+}
+
+
+.plusbutton {
+  background: linear-gradient(to right, rgb(246, 5, 250), rgb(57, 57, 227));
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.tablesecondsidecontainer {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 100%;
+  border-radius: 5px;
+  border: 3px solid #ff69b4;
+  /* Shin pink border color */
+  overflow: hidden;
+}
+
+.headercontainer {
+  overflow: auto;
+}
+
+.tablesidecontainer table {
+  border-collapse: collapse;
+  width: 120%;
+  /* Increase width for horizontal scroll */
+  overflow-x: scroll;
+  white-space: nowrap;
+  /* Prevent text wrapping */
+  position: relative;
+
+}
+
+.tablesidecontainer th,
+.tablesidecontainer td {
+  padding: 12px;
+  /* Increase padding for better readability */
+}
+
+.tablesidecontainer th {
+  background-color: #ff69b4;
+}
+
+.tablesidecontainer th:first-child {
+  position: sticky;
+  left: 0;
+  width: 300px;
+  background: #ff69b4;
+  z-index: 1;
+}
+
+/* ... Your existing styles ... */
+
+.tablesidecontainer td:first-child {
+  position: sticky;
+  left: 0;
+  width: 300px;
+  background: rgba(0, 0, 0, 0.7);
+  /* Transparent black background */
+  z-index: 1;
+}
+
+/* ... Other styles ... */
+
+
+/* Blur effect for scrolled content */
+.tablesidecontainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  background: inherit;
+  filter: blur(80px);
+  /* Adjust the blur intensity as needed */
+  pointer-events: none;
+  /* Ensure the blurred layer doesn't interfere with clicks */
+  z-index: 1;
+}
+
+.tablefooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.tablefooter i {
+  margin: 0 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.tablefooter i:hover {
+  color: #00EEC5;
+}
+
+.tablefooter p {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.tablefooter p:hover {
+  color: #00EEC5;
+}
+
+
+/* Change the color of the scrollbar */
+/* Set the width of the scrollbar */
+::-webkit-scrollbar {
+  width: 2px;
+  height: 6px;
+}
+
+/* Set the color of the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* Set the color of the scrollbar handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: #ff69b4;
+  border: 2px white solid;
+  border-radius: 30%;
+  /* Add rounded corners to the handle */
+}
+
+/* Change the color of the scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ff69b4;
+}

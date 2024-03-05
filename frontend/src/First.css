@@ -1,0 +1,339 @@
+body {
+  /* Important: Linear gradient with black color */
+  background: linear-gradient(45deg, #8F00FF, #000000, #00C8FF);
+  background-size: 400% 400%;
+  animation: gradientAnimation 20s linear infinite;
+  margin: 0;
+  color: #fff;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+
+
+
+.main-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.eventscontainer {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  border: 5px solid #ff69b4;
+  border-radius: 5px;
+
+}
+
+.usercontainer {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.user{
+  margin-left: 10px;
+}
+
+.events {
+  color: #ff69b4;
+  margin-left: 10px;
+}
+
+.onesidecontainer {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  border-radius: 5px;
+  border: 5px solid #ff69b4;
+  /* Shiny pink border color */
+  padding: 10px;
+}
+
+
+.inputsidedata,
+.inputsidedataselect {
+  background: transparent;
+  border: none;
+}
+
+.inputsidedataselect {
+  border: 4px solid #ff69b4;
+  border-radius: 9px;
+}
+
+.sidedivbutton {
+  margin-left: 15px;
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.sidedropdown {
+  padding: 10px;
+  width: 70%;
+  margin-left: auto;
+}
+
+.sidedropdownselect {
+  border: 2px solid #ff69b4;
+  margin-top: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  color: #ff69b4;
+  width: 70%;
+  margin-left: auto;
+}
+
+.logoutcontainer {
+  background-color: black;
+  border-radius: 5px;
+  box-shadow: 0 0 9px rgba(255, 255, 255, 0.5);
+  /* Black shadow */
+  margin-top: auto;
+  /* Push the Logout container to the bottom */
+}
+
+.buttoncontainer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.firstbutton {
+  width: 200px;
+  color: #ff69b4;
+  padding: 10px;
+  background: transparent;
+  border-radius: 6px;
+  border: 2px solid #ff69b4;
+  /* Shiny pink border color */
+}
+
+.secondbutton {
+  color: #ffffff;
+  background-color: #ff69b4;
+}
+
+.logoutbutton {
+  background-color: transparent;
+  display: flex;
+  /* Make the button background transparent */
+  color: #fff;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* Set text color to white */
+  margin: 5px;
+  /* Optional margin for spacing between buttons */
+}
+
+/* Optional: Add hover effect for better user experience */
+.logoutbutton:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  /* Add a slight white background on hover */
+}
+
+.secondsidecontainer {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 10px;
+  height: 100%;
+  border-radius: 5px;
+  border: 5px solid #ff69b4;
+  /* Shiny pink border color */
+  padding: 10px;
+}
+
+/* Optional: Add some styling for better visibility */
+.main-container {
+  padding: 20px;
+}
+
+.dropdown {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.secondmain-container {
+  display: flex;
+  flex-direction: row;
+  /* Display containers in reverse order */
+  justify-content: space-between;
+  /* Adjust as needed */
+}
+
+.second-onesidecontainer,
+.second-secondsidecontainer {
+  width: 48%;
+  /* Adjust the width as needed */
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+  /* Optional margin between containers */
+}
+
+.second-onesidecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.assigncoordinator {
+  margin-right: auto;
+}
+
+.searchcoordinator {
+  color: #ffffff;
+}
+
+.inputdata {
+  width: 100%;
+  border: 1px solid #ffffff;
+  background: transparent;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.bottomusername {
+  color: #ff69b4;
+  text-align: start;
+  margin-right: auto;
+  /* Push the text to the bottom */
+}
+
+.second-secondsidecontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Additional styling for better visibility */
+.secondmain-container {
+  margin-top: 20px;
+}
+
+.eventname {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3px;
+}
+
+.startend {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  gap: 60px;
+  border-radius: 5px;
+  border: 1px solid #ff69b4;
+}
+
+
+.venueaddress {
+  border: 1px solid #ff69b4;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+
+
+.thirdmain-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.third-onesidecontainer {
+  width: 39%;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.assigncontractorcontainer {
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid #ff69b4;
+  padding: 15px;
+  flex-wrap: wrap;
+
+}
+
+
+
+.cards,
+.cards1 {
+  width: 100%;
+  border: 1px solid #ff69b4;
+  border-radius: 13px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+
+.cards1 {
+  background-color: #ff69b4;
+}
+
+.third-secondsidecontainer {
+  width: 60%;
+  margin-top: 70px;
+}
+
+table {
+  width: 100%;
+  height: 80%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+tr {
+  border: 1px solid #ff69b4;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: left;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+/* Additional styling for better visibility */
+.thirdmain-container {
+  margin-top: 20px;
+}
+
+.meetingroom {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.position12 {
+  color: #ff69b4;
+}
+
+.selectedposition12 {
+  color: black;
+}
+
+/* Adjust the styling as needed */
