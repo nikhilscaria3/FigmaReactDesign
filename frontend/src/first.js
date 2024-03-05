@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import anime from 'animejs';
+import React from 'react';
+
 import './First.css'
 import { useNavigate } from 'react-router-dom';
 const First = () => {
@@ -29,7 +29,7 @@ const First = () => {
 
           <p>Welcome back</p>
         </div>
-        <img className='userimage' src='' alt='Image'></img>
+        <img className='userimage' src='' alt='User Profile'></img>
       </div>
 
 

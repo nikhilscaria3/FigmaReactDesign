@@ -43,7 +43,8 @@ const Second = () => {
 
           <p>Welcome back</p>
         </div>
-        <img className='userimage' src='' alt='Image'></img>
+        <img className='userimage' src='' alt='User Profile'></img>
+
       </div>
 
 
