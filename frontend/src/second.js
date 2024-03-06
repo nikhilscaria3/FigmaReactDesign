@@ -1,27 +1,18 @@
-import React, { useEffect } from 'react';
-import anime from 'animejs';
+import React from 'react';
 import logo from './image/logo2.jpg'
 import image from './image/Show.jpg'
+import vector1 from './image/Vector-3.png'
+import vector2 from './image/Vector-1.png'
 import './Second.css'
-const Second = () => {
-  useEffect(() => {
-    // Use anime.js to create a color background animation
-    const animation = anime({
-      targets: 'body',
-      backgroundColor: [
-        { value: '#000' }, // Initial background color
-        { value: '#8F00FF' }, // Target background color
-      ],
-      duration: 3000, // Animation duration in milliseconds
-      loop: true, // Loop the animation
-      easing: 'linear', // Easing function
-    });
+import { useNavigate } from 'react-router-dom';
 
-    return () => {
-      // Cleanup animation on component unmount
-      animation.pause();
-    };
-  }, []);
+
+const Second = () => {
+
+  const navigate = useNavigate()
+  const handleClick = () => {
+    navigate('/')
+  }
 
   return (
     <div>
@@ -58,29 +49,56 @@ const Second = () => {
             <h3 className='events'>Events</h3>
             <p><i class='bx bx-chevron-up' style={{ color: '#ff69b4' }} ></i></p>
           </div>
-          <p className="sidedropdownselect">New Requests</p>
 
-          <div className='nineestimatecontainer'>
-            <p className="sideestimatedropdown">Estimate</p>
-            <div className='circle-indicator'>9</div>
+          <div className='vectorcontainer'>
+            <img className='vector1' src={vector1} alt='Vector'></img>
+            <p className="sidedropdownselect" >New Requests</p>
           </div>
 
-          <p className="sidedropdown">Events</p>
-          <p className="sidedropdown">Partial Requests </p>
+          <div className='vectorcontainer'>
+            <img className='vector2' src={vector2} alt='Vector'></img>
+            <p className="sidedropdown">Estimate </p>
+          </div>
+
+          <div className='vectorcontainer'>
+            <img className='vector2' src={vector2} alt='Vector'></img>
+            <p className="sidedropdown" onClick={handleClick} >Events</p>
+          </div>
+
+          <div className='vectorcontainer'>
+            <img className='vector2' src={vector2} alt='Vector'></img>
+            <p className="sidedropdown">Partial Requests </p>
+          </div>
+
+
           <p className='sidedivbutton'>Positions</p>
           <p className='sidedivbutton'>Contractors</p>
           <div className='usercontainer'>
             <h3 className='user'>User</h3>
             <p><i class='bx bx-chevron-up' style={{ color: '#ffff' }} ></i></p>
           </div>
-          <p className="sidedropdown">-Admins</p>
-          <p className="sidedropdown">-Clients</p>
-          <p className="sidedropdown">-Coordinators</p>
+
+          <div className='vectorcontainer'>
+            <img className='vector2' src={vector2} alt='Vector'></img>
+            <p className="sidedropdown">-Admins</p>
+          </div>
+
+          <div className='vectorcontainer'>
+            <img className='vector2' src={vector2} alt='Vector'></img>
+            <p className="sidedropdown">-Clients</p>
+          </div>
+          <div className='vectorcontainer'>
+            <img className='vector2' src={vector2} alt='Vector'></img>
+            <p className="sidedropdown">-Coordinators</p>
+          </div>
+
+
           <p className='sidedivbutton'>Profile</p>
           <div className='logoutcontainer'>
             <p className='logoutbutton'><i class='bx bx-upload bx-rotate-270' style={{ color: '#ffffff' }}></i> Logout</p>
           </div>
         </div>
+
 
 
         <div className='tablesecondsidecontainer'>

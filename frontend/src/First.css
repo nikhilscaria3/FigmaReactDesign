@@ -91,6 +91,8 @@ body {
   color: #fff;
   font-size: 1rem;
   font-weight: 700;
+  margin-top: 15px;
+
 }
 
 .sideestimatedropdown {
@@ -232,6 +234,31 @@ body {
   padding: 5px;
   margin-top: 5px;
 }
+
+.vectorcontainer {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.vector1 {
+  width: 24px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  margin-bottom: 20px;
+}
+
+.vector2 {
+  width: 24px; /* Adjust the width as needed */
+  height: 50px; /* Adjust the height as needed */
+}
+
+
+.sidedropdownselect,
+.sidedropdown {
+  margin: 0; /* Remove default margin */
+  cursor: pointer; /* Add a pointer cursor for better UX */
+}
+
 
 .inputdata {
   width: 100%;

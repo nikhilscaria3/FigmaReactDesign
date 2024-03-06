@@ -2,6 +2,8 @@ import React from 'react';
 
 import './First.css'
 import logo from './image/logo2.jpg'
+import vector1 from './image/Vector-3.png'
+import vector2 from './image/Vector-1.png'
 
 import { useNavigate } from 'react-router-dom';
 const First = () => {
@@ -45,19 +47,50 @@ const First = () => {
             <h3 className='events'>Events</h3>
             <p><i class='bx bx-chevron-up' style={{ color: '#ff69b4' }} ></i></p>
           </div>
-          <p className="sidedropdownselect" onClick={handleClick}>New Requests</p>
-          <p className="sidedropdown">Estimate </p>
-          <p className="sidedropdown">Events</p>
-          <p className="sidedropdown">Partial Requests </p>
+
+          <div className='vectorcontainer'>
+            <img className='vector1' src={vector1} alt='Vector'></img>
+            <p className="sidedropdownselect" onClick={handleClick}>New Requests</p>
+          </div>
+
+          <div className='vectorcontainer'>
+            <img className='vector2' src={vector2} alt='Vector'></img>
+            <p className="sidedropdown">Estimate </p>
+          </div>
+
+          <div className='vectorcontainer'>
+            <img className='vector2' src={vector2} alt='Vector'></img>
+            <p className="sidedropdown">Events</p>
+          </div>
+
+          <div className='vectorcontainer'>
+            <img className='vector2' src={vector2} alt='Vector'></img>
+            <p className="sidedropdown">Partial Requests </p>
+          </div>
+
+
           <p className='sidedivbutton'>Positions</p>
           <p className='sidedivbutton'>Contractors</p>
           <div className='usercontainer'>
             <h3 className='user'>User</h3>
             <p><i class='bx bx-chevron-up' style={{ color: '#ffff' }} ></i></p>
           </div>
-          <p className="sidedropdown">-Admins</p>
-          <p className="sidedropdown">-Clients</p>
-          <p className="sidedropdown">-Coordinators</p>
+
+          <div className='vectorcontainer'>
+            <img className='vector2' src={vector2} alt='Vector'></img>
+            <p className="sidedropdown">-Admins</p>
+          </div>
+
+          <div className='vectorcontainer'>
+            <img className='vector2' src={vector2} alt='Vector'></img>
+            <p className="sidedropdown">-Clients</p>
+          </div>
+          <div className='vectorcontainer'>
+            <img className='vector2' src={vector2} alt='Vector'></img>
+            <p className="sidedropdown">-Coordinators</p>
+          </div>
+
+
           <p className='sidedivbutton'>Profile</p>
           <div className='logoutcontainer'>
             <p className='logoutbutton'><i class='bx bx-upload bx-rotate-270' style={{ color: '#ffffff' }}></i> Logout</p>
