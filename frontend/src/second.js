@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import anime from 'animejs';
+import image from './image/Show.jpg'
 import './Second.css'
 const Second = () => {
   useEffect(() => {
@@ -106,7 +107,11 @@ const Second = () => {
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Filled Name</td>
+                    <td className="flex-container">
+                      <img src={image} alt='Name' className="image-style" />
+                      Filled Name
+                    </td>
+
                     <td>Jun 12 2024</td>
                     <td>Jun 14 2024</td>
                     <td>Muhammed Asad</td>
@@ -118,7 +123,10 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                    <td>Filled Name</td>
+                     <td className="flex-container">
+                      <img src={image} alt='Name' className="image-style" />
+                      Filled Name
+                    </td>
                     <td>Jun 12 2024</td>
                     <td>Jun 14 2024</td>
                     <td>Muhammed Asad</td>
@@ -130,7 +138,10 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                    <td>Filled Name</td>
+                     <td className="flex-container">
+                      <img src={image} alt='Name' className="image-style" />
+                      Filled Name
+                    </td>
                     <td>Jun 12 2024</td>
                     <td>Jun 14 2024</td>
                     <td>Muhammed Asad</td>
@@ -142,7 +153,10 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                    <td>Filled Name</td>
+                     <td className="flex-container">
+                      <img src={image} alt='Name' className="image-style" />
+                      Filled Name
+                    </td>
                     <td>Jun 12 2024</td>
                     <td>Jun 14 2024</td>
                     <td>Muhammed Asad</td>
@@ -155,7 +169,10 @@ const Second = () => {
                   </tr>
                   <tr>
 
-                    <td>Filled Name</td>
+                     <td className="flex-container">
+                      <img src={image} alt='Name' className="image-style" />
+                      Filled Name
+                    </td>
                     <td>Jun 12 2024</td>
                     <td>Jun 14 2024</td>
                     <td>Muhammed Asad</td>
@@ -167,7 +184,10 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                    <td>Filled Name</td>
+                     <td className="flex-container">
+                      <img src={image} alt='Name' className="image-style" />
+                      Filled Name
+                    </td>
                     <td>Jun 12 2024</td>
                     <td>Jun 14 2024</td>
                     <td>Muhammed Asad</td>
@@ -179,7 +199,10 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                    <td>Filled Name</td>
+                     <td className="flex-container">
+                      <img src={image} alt='Name' className="image-style" />
+                      Filled Name
+                    </td>
                     <td>Jun 12 2024</td>
                     <td>Jun 14 2024</td>
                     <td>Muhammed Asad</td>
@@ -191,7 +214,10 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                    <td>Filled Name</td>
+                     <td className="flex-container">
+                      <img src={image} alt='Name' className="image-style" />
+                      Filled Name
+                    </td>
                     <td>Jun 12 2024</td>
                     <td>Jun 14 2024</td>
                     <td>Muhammed Asad</td>
@@ -203,7 +229,10 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                    <td>Filled Name</td>
+                     <td className="flex-container">
+                      <img src={image} alt='Name' className="image-style" />
+                      Filled Name
+                    </td>
                     <td>Jun 12 2024</td>
                     <td>Jun 14 2024</td>
                     <td>Muhammed Asad</td>
@@ -215,7 +244,10 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                    <td>Filled Name</td>
+                     <td className="flex-container">
+                      <img src={image} alt='Name' className="image-style" />
+                      Filled Name
+                    </td>
                     <td>Jun 12 2024</td>
                     <td>Jun 14 2024</td>
                     <td>Muhammed Asad</td>
@@ -227,7 +259,10 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                    <td>Filled Name</td>
+                     <td className="flex-container">
+                      <img src={image} alt='Name' className="image-style" />
+                      Filled Name
+                    </td>
                     <td>Jun 12 2024</td>
                     <td>Jun 14 2024</td>
                     <td>Muhammed Asad</td>
@@ -239,7 +274,10 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                    <td>Filled Name</td>
+                     <td className="flex-container">
+                      <img src={image} alt='Name' className="image-style" />
+                      Filled Name
+                    </td>
                     <td>Jun 12 2024</td>
                     <td>Jun 14 2024</td>
                     <td>Muhammed Asad</td>
@@ -251,7 +289,10 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                    <td>Filled Name</td>
+                     <td className="flex-container">
+                      <img src={image} alt='Name' className="image-style" />
+                      Filled Name
+                    </td>
                     <td>Jun 12 2024</td>
                     <td>Jun 14 2024</td>
                     <td>Muhammed Asad</td>
@@ -263,7 +304,10 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                    <td>Filled Name</td>
+                     <td className="flex-container">
+                      <img src={image} alt='Name' className="image-style" />
+                      Filled Name
+                    </td>
                     <td>Jun 12 2024</td>
                     <td>Jun 14 2024</td>
                     <td>Muhammed Asad</td>

@@ -11,9 +11,11 @@ body {
   0% {
     background-position: 0% 0%;
   }
+
   50% {
     background-position: 100% 100%;
   }
+
   100% {
     background-position: 0% 0%;
   }
@@ -43,7 +45,7 @@ body {
   justify-content: space-between;
 }
 
-.user{
+.user {
   margin-left: 10px;
 }
 
@@ -205,9 +207,20 @@ body {
   color: #ffffff;
 }
 
-.inputdata {
+.firstinputdata{
   width: 100%;
   border: 1px solid #ffffff;
+  color: #fff;
+  background: transparent;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.inputdata {
+  width: 100%;
+  border: 1px solid #ff69b4;
+  color: #fff;
   background: transparent;
   border-radius: 5px;
   padding: 5px;
@@ -300,11 +313,13 @@ body {
 table {
   width: 100%;
   height: 80%;
+  padding: 5px;
   border-collapse: collapse;
   margin-top: 30px;
 }
 
 tr {
+  margin-left: 3px;
   border: 1px solid #ff69b4;
   border-radius: 15px;
   padding: 10px;
@@ -316,6 +331,18 @@ select {
   padding: 5px;
   margin-top: 5px;
 }
+
+
+.tablefirstfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #ff69b4 1px solid;
+  padding: 6px;
+  border-radius: 0 0 9px 9px;
+
+}
+
 
 /* Additional styling for better visibility */
 .thirdmain-container {
@@ -334,6 +361,23 @@ select {
 
 .selectedposition12 {
   color: black;
+}
+
+
+.firstfooter {
+  display: flex;
+  justify-content: center;
+}
+
+
+.saveeditbutton {
+  background-color: #D85AD8;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  width: 120px;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 /* Adjust the styling as needed */

@@ -58,6 +58,10 @@ const First = () => {
             <p className='logoutbutton'><i class='bx bx-upload bx-rotate-270' style={{ color: '#ffffff' }}></i> Logout</p>
           </div>
         </div>
+
+
+
+
         <div className='secondsidecontainer'>
           <h2>Event Name(venue details)</h2>
           <div className='buttoncontainer'>
@@ -70,7 +74,7 @@ const First = () => {
           <div className='secondmain-container'>
             <div className='second-onesidecontainer'>
               <h4 className='assigncoordinator'>Assign Coordinator</h4>
-              <select className='inputdata'>
+              <select className='firstinputdata'>
                 <option value="" disabled selected hidden style={{ color: '#fff' }}>
                   Search Coordinator
                 </option>
@@ -132,7 +136,7 @@ const First = () => {
               </div>
             </div>
             <div className='third-secondsidecontainer'>
-              <h4>Postion</h4>
+              <h4>Position</h4>
               <table>
                 <thead>
                   <tr>
@@ -166,7 +170,8 @@ const First = () => {
                     <td>20</td>
                     <td>
                       <select className='inputdata'>
-                        <option value="contractor1">Contractor 1</option>
+                     
+                        <option  value="contractor1">Contractor 1</option>
                         <option value="contractor2">Contractor 2</option>
 
                       </select>
@@ -252,11 +257,22 @@ const First = () => {
                       </select>
                     </td>
                   </tr>
+
+
                 </tbody>
+              
               </table>
+              <div className='tablefirstfooter'>
+                  <i className='bx bx-left-arrow-alt' style={{ color: '#ffffff' }}></i>
+                  <i className='bx bx-radio-circle' style={{ color: '#ffffff' }}></i>
+                  <i className='bx bxs-circle' style={{ color: '#d175b6' }}></i>
+                  <i className='bx bx-right-arrow-alt' style={{ color: 'grey' }}></i>
+                </div>
             </div>
           </div>
-
+          <div className='firstfooter'>
+            <button className='saveeditbutton'>Save Edits</button>
+          </div>
         </div>
 
       </div>

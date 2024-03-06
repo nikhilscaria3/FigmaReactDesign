@@ -143,6 +143,19 @@ body {
   background-color: #ff69b4;
 }
 
+.flex-container {
+  display: flex;
+  gap: 10px;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.image-style {
+  /* Add any additional styles for the image */
+  max-width: 50px; /* Set a maximum width for the image */
+  max-height: 50px; /* Set a maximum height for the image */
+}
+
+
 .tablesidecontainer th:first-child {
   position: sticky;
   left: 0;
