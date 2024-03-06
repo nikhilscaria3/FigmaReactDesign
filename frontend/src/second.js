@@ -103,7 +103,7 @@ const Second = () => {
                 <thead>
                   <tr>
                     <th>Event Name <i class='bx bxs-chevron-up-circle' style={{ color: "#fff" }} ></i></th>
-                    <th>Event Start <i class='bx bxs-chevron-up-circle' style={{ color: "#fff" }} ></i> </th>
+                    <th>Event Start <i class='bx bxs-chevron-down-circle' style={{ color: "#fff" }} ></i> </th>
                     <th>Event end</th>
                     <th>Cleint name <i class='bx bxs-chevron-up-circle' style={{ color: "#fff" }} ></i></th>
                     <th>Contact info</th>

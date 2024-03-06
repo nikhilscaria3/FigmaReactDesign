@@ -39,6 +39,15 @@ body {
 
 }
 
+.eventnamecontainer {
+  display: flex;
+  align-items: center; /* Center vertically */
+}
+
+.eventname, .venuedetails {
+  margin: 0;
+}
+
 .usercontainer {
   display: flex;
   padding: 5px;
@@ -227,7 +236,7 @@ body {
 .inputdata {
   width: 100%;
   border: 1px solid #ff69b4;
-  color: #fff;
+  color: #706d6d;
   background: transparent;
   border-radius: 5px;
   padding: 5px;

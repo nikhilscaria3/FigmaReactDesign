@@ -68,7 +68,10 @@ const First = () => {
 
 
         <div className='secondsidecontainer'>
-          <h2>Event Name(venue details)</h2>
+          <div className='eventnamecontainer'>
+            <h2 className='eventname'>Event Name</h2>
+            <h4 className='venuedetails'>(venue details)</h4>
+          </div>
           <div className='buttoncontainer'>
             <button className='firstbutton'>Event Details</button>
             <button className='secondbutton'>Assign Coordinator/Coordinator</button>
@@ -160,7 +163,7 @@ const First = () => {
                     <td>20</td>
                     <td>
                       <select className='inputdata'>
-                        <option value="contractor1">Contractor 1</option>
+                        <option value="contractor1">Select Contractor </option>
                         <option value="contractor2">Contractor 2</option>
 
                       </select>
@@ -176,7 +179,7 @@ const First = () => {
                     <td>
                       <select className='inputdata'>
 
-                        <option value="contractor1">Contractor 1</option>
+                        <option value="contractor1">Select Contractor </option>
                         <option value="contractor2">Contractor 2</option>
 
                       </select>
@@ -191,7 +194,7 @@ const First = () => {
                     <td>20</td>
                     <td>
                       <select className='inputdata' >
-                        <option value="contractor1">Contractor 1</option>
+                        <option value="contractor1">Select Contractor </option>
                         <option value="contractor2">Contractor 2</option>
 
                       </select>
@@ -204,7 +207,7 @@ const First = () => {
                     <td>20</td>
                     <td>
                       <select className='inputdata'>
-                        <option value="contractor1">Contractor 1</option>
+                        <option value="contractor1">Select Contractor </option>
                         <option value="contractor2">Contractor 2</option>
 
                       </select>
@@ -217,7 +220,7 @@ const First = () => {
                     <td>20</td>
                     <td>
                       <select className='inputdata'>
-                        <option value="contractor1">Contractor 1</option>
+                        <option value="contractor1">Select Contractor </option>
                         <option value="contractor2">Contractor 2</option>
 
                       </select>
@@ -230,7 +233,7 @@ const First = () => {
                     <td>20</td>
                     <td>
                       <select className='inputdata'>
-                        <option value="contractor1">Contractor 1</option>
+                        <option value="contractor1">Select Contractor </option>
                         <option value="contractor2">Contractor 2</option>
 
                       </select>
@@ -243,7 +246,7 @@ const First = () => {
                     <td>20</td>
                     <td>
                       <select className='inputdata'>
-                        <option value="contractor1">Contractor 1</option>
+                        <option value="contractor1">Select Contractor </option>
                         <option value="contractor2">Contractor 2</option>
 
                       </select>
@@ -256,7 +259,7 @@ const First = () => {
                     <td>20</td>
                     <td>
                       <select className='inputdata'>
-                        <option value="contractor1">Contractor 1</option>
+                        <option value="contractor1">Select Contractor </option>
                         <option value="contractor2">Contractor 2</option>
 
                       </select>
