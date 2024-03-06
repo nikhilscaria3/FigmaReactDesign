@@ -1,6 +1,6 @@
 body {
   /* Important: Linear gradient with black color */
-  background: linear-gradient(45deg,  #8F00FF, #000000, #00C8FF);
+  background: linear-gradient(45deg, #00C8FF, #000000, #8F00FF);
   background-size: 400% 400%;
   animation: gradientAnimation 10s linear infinite;
   margin: 0;
@@ -19,6 +19,23 @@ body {
   100% {
     background-position: 0% 0%;
   }
+}
+
+
+.newcontainer{
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+}
+
+.vectornewcontainer{
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+}
+
+.vectornamecontainer{
+  margin-top: 3px;
 }
 
 
@@ -104,18 +121,16 @@ body {
 }
 
 .sidedropdown {
-  padding: 10px;
-  width: 70%;
-  margin-left: auto;
+  padding: 15px;
+  width: 100%;
 }
 
 .sidedropdownselect {
   border: 2px solid #ff69b4;
-  margin-top: 5px;
+  margin-top: 6px;
   border-radius: 5px;
   padding: 10px;
   color: #ff69b4;
-  width: 70%;
   margin-left: auto;
 }
 
@@ -247,8 +262,7 @@ body {
   width: 24px;
   /* Adjust the width as needed */
   height: 40px;
-  /* Adjust the height as needed */
-  margin-bottom: 20px;
+
 }
 
 .vector2 {
