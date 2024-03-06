@@ -1,8 +1,8 @@
 body {
   /* Important: Linear gradient with black color */
-  background: linear-gradient(45deg, #8F00FF, #000000, #00C8FF);
+  background: linear-gradient(45deg,  #8F00FF, #000000, #00C8FF);
   background-size: 400% 400%;
-  animation: gradientAnimation 20s linear infinite;
+  animation: gradientAnimation 10s linear infinite;
   margin: 0;
   color: #fff;
 }
@@ -34,17 +34,19 @@ body {
   padding: 5px;
   display: flex;
   justify-content: space-between;
-  border: 5px solid #ff69b4;
+  border: 4px solid #ff69b4;
   border-radius: 5px;
 
 }
 
 .eventnamecontainer {
   display: flex;
-  align-items: center; /* Center vertically */
+  align-items: center;
+  /* Center vertically */
 }
 
-.eventname, .venuedetails {
+.eventname,
+.venuedetails {
   margin: 0;
 }
 
@@ -68,7 +70,7 @@ body {
   flex-direction: column;
   width: 20%;
   border-radius: 5px;
-  border: 5px solid #ff69b4;
+  border: 2px solid #ff69b4;
   /* Shiny pink border color */
   padding: 10px;
 }
@@ -176,7 +178,7 @@ body {
   gap: 10px;
   height: 100%;
   border-radius: 5px;
-  border: 5px solid #ff69b4;
+  border: 2px solid #ff69b4;
   /* Shiny pink border color */
   padding: 10px;
 }
@@ -242,21 +244,27 @@ body {
 }
 
 .vector1 {
-  width: 24px; /* Adjust the width as needed */
-  height: 40px; /* Adjust the height as needed */
+  width: 24px;
+  /* Adjust the width as needed */
+  height: 40px;
+  /* Adjust the height as needed */
   margin-bottom: 20px;
 }
 
 .vector2 {
-  width: 24px; /* Adjust the width as needed */
-  height: 50px; /* Adjust the height as needed */
+  width: 24px;
+  /* Adjust the width as needed */
+  height: 50px;
+  /* Adjust the height as needed */
 }
 
 
 .sidedropdownselect,
 .sidedropdown {
-  margin: 0; /* Remove default margin */
-  cursor: pointer; /* Add a pointer cursor for better UX */
+  margin: 0;
+  /* Remove default margin */
+  cursor: pointer;
+  /* Add a pointer cursor for better UX */
 }
 
 
