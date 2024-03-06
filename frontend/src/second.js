@@ -60,9 +60,9 @@ const Second = () => {
             </div>
 
             <div className='vectornamecontainer'>
-              <p className="sidedropdownselect" onClick={handleClick}>New Requests</p>
+              <p className="sidedropdownselect" >New Requests</p>
               <p className="sidedropdown">Estimate </p>
-              <p className="sidedropdown">Events</p>
+              <p className="sidedropdown" onClick={handleClick}>Events</p>
               <p className="sidedropdown">Partial Requests </p>
             </div>
           </div>
