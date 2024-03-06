@@ -50,25 +50,23 @@ const Second = () => {
             <p><i class='bx bx-chevron-up' style={{ color: '#ff69b4' }} ></i></p>
           </div>
 
-          <div className='vectorcontainer'>
-            <img className='vector1' src={vector1} alt='Vector'></img>
-            <p className="sidedropdownselect" >New Requests</p>
+          <div className='newcontainer'>
+
+            <div className='vectornewcontainer'>
+              <img className='vector1' src={vector1} alt='Vector'></img>
+              <img className='vector2' src={vector2} alt='Vector'></img>
+              <img className='vector2' src={vector2} alt='Vector'></img>
+              <img className='vector2' src={vector2} alt='Vector'></img>
+            </div>
+
+            <div className='vectornamecontainer'>
+              <p className="sidedropdownselect" onClick={handleClick}>New Requests</p>
+              <p className="sidedropdown">Estimate </p>
+              <p className="sidedropdown">Events</p>
+              <p className="sidedropdown">Partial Requests </p>
+            </div>
           </div>
 
-          <div className='vectorcontainer'>
-            <img className='vector2' src={vector2} alt='Vector'></img>
-            <p className="sidedropdown">Estimate </p>
-          </div>
-
-          <div className='vectorcontainer'>
-            <img className='vector2' src={vector2} alt='Vector'></img>
-            <p className="sidedropdown" onClick={handleClick} >Events</p>
-          </div>
-
-          <div className='vectorcontainer'>
-            <img className='vector2' src={vector2} alt='Vector'></img>
-            <p className="sidedropdown">Partial Requests </p>
-          </div>
 
 
           <p className='sidedivbutton'>Positions</p>
@@ -78,18 +76,20 @@ const Second = () => {
             <p><i class='bx bx-chevron-up' style={{ color: '#ffff' }} ></i></p>
           </div>
 
-          <div className='vectorcontainer'>
-            <img className='vector2' src={vector2} alt='Vector'></img>
-            <p className="sidedropdown">-Admins</p>
-          </div>
+          <div className='newcontainer'>
 
-          <div className='vectorcontainer'>
-            <img className='vector2' src={vector2} alt='Vector'></img>
-            <p className="sidedropdown">-Clients</p>
-          </div>
-          <div className='vectorcontainer'>
-            <img className='vector2' src={vector2} alt='Vector'></img>
-            <p className="sidedropdown">-Coordinators</p>
+            <div className='vectornewcontainer'>
+              <img className='vector1' src={vector2} alt='Vector'></img>
+              <img className='vector2' src={vector2} alt='Vector'></img>
+              <img className='vector2' src={vector2} alt='Vector'></img>
+
+            </div>
+
+            <div className='vectornamecontainer'>
+              <p className="sidedropdown">Admin</p>
+              <p className="sidedropdown">Clients </p>
+              <p className="sidedropdown">Coordinators</p>
+            </div>
           </div>
 
 
