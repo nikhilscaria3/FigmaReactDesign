@@ -84,6 +84,12 @@ body {
   font-weight: 700;
 }
 
+.sideestimatedropdown {
+  padding: 5px;
+  width: 57%;
+  margin-left: auto;
+}
+
 .sidedropdown {
   padding: 10px;
   width: 70%;
@@ -104,6 +110,7 @@ body {
   background-color: black;
   border-radius: 5px;
   box-shadow: 0 0 9px rgba(255, 255, 255, 0.5);
+  padding: 8px;
   /* Black shadow */
   margin-top: auto;
   /* Push the Logout container to the bottom */
@@ -207,7 +214,7 @@ body {
   color: #ffffff;
 }
 
-.firstinputdata{
+.firstinputdata {
   width: 100%;
   border: 1px solid #ffffff;
   color: #fff;

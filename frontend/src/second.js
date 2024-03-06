@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import anime from 'animejs';
+import logo from './image/logo2.jpg'
 import image from './image/Show.jpg'
 import './Second.css'
 const Second = () => {
@@ -44,7 +45,9 @@ const Second = () => {
 
           <p>Welcome back</p>
         </div>
-        <img className='userimage' src='' alt='User Profile'></img>
+        <div className='image-container'>
+          <img className='userimage' src={logo} alt='User Profile'></img>
+        </div>
 
       </div>
 
@@ -56,7 +59,12 @@ const Second = () => {
             <p><i class='bx bx-chevron-up' style={{ color: '#ff69b4' }} ></i></p>
           </div>
           <p className="sidedropdownselect">New Requests</p>
-          <p className="sidedropdown">Estimate </p>
+
+          <div className='nineestimatecontainer'>
+            <p className="sideestimatedropdown">Estimate</p>
+            <div className='circle-indicator'>9</div>
+          </div>
+
           <p className="sidedropdown">Events</p>
           <p className="sidedropdown">Partial Requests </p>
           <p className='sidedivbutton'>Positions</p>
@@ -123,7 +131,7 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                     <td className="flex-container">
+                    <td className="flex-container">
                       <img src={image} alt='Name' className="image-style" />
                       Filled Name
                     </td>
@@ -138,7 +146,7 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                     <td className="flex-container">
+                    <td className="flex-container">
                       <img src={image} alt='Name' className="image-style" />
                       Filled Name
                     </td>
@@ -153,7 +161,7 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                     <td className="flex-container">
+                    <td className="flex-container">
                       <img src={image} alt='Name' className="image-style" />
                       Filled Name
                     </td>
@@ -169,7 +177,7 @@ const Second = () => {
                   </tr>
                   <tr>
 
-                     <td className="flex-container">
+                    <td className="flex-container">
                       <img src={image} alt='Name' className="image-style" />
                       Filled Name
                     </td>
@@ -184,7 +192,7 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                     <td className="flex-container">
+                    <td className="flex-container">
                       <img src={image} alt='Name' className="image-style" />
                       Filled Name
                     </td>
@@ -199,7 +207,7 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                     <td className="flex-container">
+                    <td className="flex-container">
                       <img src={image} alt='Name' className="image-style" />
                       Filled Name
                     </td>
@@ -214,7 +222,7 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                     <td className="flex-container">
+                    <td className="flex-container">
                       <img src={image} alt='Name' className="image-style" />
                       Filled Name
                     </td>
@@ -229,7 +237,7 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                     <td className="flex-container">
+                    <td className="flex-container">
                       <img src={image} alt='Name' className="image-style" />
                       Filled Name
                     </td>
@@ -244,7 +252,7 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                     <td className="flex-container">
+                    <td className="flex-container">
                       <img src={image} alt='Name' className="image-style" />
                       Filled Name
                     </td>
@@ -259,7 +267,7 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                     <td className="flex-container">
+                    <td className="flex-container">
                       <img src={image} alt='Name' className="image-style" />
                       Filled Name
                     </td>
@@ -274,7 +282,7 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                     <td className="flex-container">
+                    <td className="flex-container">
                       <img src={image} alt='Name' className="image-style" />
                       Filled Name
                     </td>
@@ -289,7 +297,7 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                     <td className="flex-container">
+                    <td className="flex-container">
                       <img src={image} alt='Name' className="image-style" />
                       Filled Name
                     </td>
@@ -304,7 +312,7 @@ const Second = () => {
 
                   </tr>
                   <tr>
-                     <td className="flex-container">
+                    <td className="flex-container">
                       <img src={image} alt='Name' className="image-style" />
                       Filled Name
                     </td>

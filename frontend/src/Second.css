@@ -1,6 +1,7 @@
 body {
   color: #ffffff;
 }
+
 /* ///second screen */
 .userdetailscontainer {
   display: flex;
@@ -32,13 +33,37 @@ body {
   /* Remove default margin */
 }
 
+.nineestimatecontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle-indicator {
+  width: 30px; /* Adjust the size of the circle */
+  height: 30px;
+  background-color: #fff; /* Set the background color */
+  color: #D85AD8; /* Set the text color */
+  border-radius: 50%; /* Make it a circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold; /* Make the text bold */
+  font-size: 14px; /* Adjust the font size */
+}
+
+
+.image-container {
+  width: auto;
+  height: auto;
+}
+
 .userimage {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-left: 10px;
-  border: 1px #ff69b4 solid;
-  /* Add additional styles for your user image */
+  width: 100%;
+  /* Make the image width 100% of the container */
+  height: 100%;
+  /* Make the image height 100% of the container */
+  object-fit: cover;
+  /* Ensure the image covers the container while maintaining aspect ratio */
 }
 
 
@@ -146,13 +171,16 @@ body {
 .flex-container {
   display: flex;
   gap: 10px;
-  align-items: center; /* Align items vertically in the center */
+  align-items: center;
+  /* Align items vertically in the center */
 }
 
 .image-style {
   /* Add any additional styles for the image */
-  max-width: 50px; /* Set a maximum width for the image */
-  max-height: 50px; /* Set a maximum height for the image */
+  max-width: 50px;
+  /* Set a maximum width for the image */
+  max-height: 50px;
+  /* Set a maximum height for the image */
 }
 
 

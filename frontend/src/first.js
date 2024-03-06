@@ -1,6 +1,8 @@
 import React from 'react';
 
 import './First.css'
+import logo from './image/logo2.jpg'
+
 import { useNavigate } from 'react-router-dom';
 const First = () => {
   const navigate = useNavigate()
@@ -29,7 +31,10 @@ const First = () => {
 
           <p>Welcome back</p>
         </div>
-        <img className='userimage' src='' alt='User Profile'></img>
+        <div className='image-container'>
+          <img className='userimage' src={logo} alt='User Profile'></img>
+        </div>
+
       </div>
 
 
@@ -170,8 +175,8 @@ const First = () => {
                     <td>20</td>
                     <td>
                       <select className='inputdata'>
-                     
-                        <option  value="contractor1">Contractor 1</option>
+
+                        <option value="contractor1">Contractor 1</option>
                         <option value="contractor2">Contractor 2</option>
 
                       </select>
@@ -260,14 +265,14 @@ const First = () => {
 
 
                 </tbody>
-              
+
               </table>
               <div className='tablefirstfooter'>
-                  <i className='bx bx-left-arrow-alt' style={{ color: '#ffffff' }}></i>
-                  <i className='bx bx-radio-circle' style={{ color: '#ffffff' }}></i>
-                  <i className='bx bxs-circle' style={{ color: '#d175b6' }}></i>
-                  <i className='bx bx-right-arrow-alt' style={{ color: 'grey' }}></i>
-                </div>
+                <i className='bx bx-left-arrow-alt' style={{ color: '#ffffff' }}></i>
+                <i className='bx bx-radio-circle' style={{ color: '#ffffff' }}></i>
+                <i className='bx bxs-circle' style={{ color: '#d175b6' }}></i>
+                <i className='bx bx-right-arrow-alt' style={{ color: 'grey' }}></i>
+              </div>
             </div>
           </div>
           <div className='firstfooter'>
