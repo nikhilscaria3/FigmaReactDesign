@@ -441,8 +441,7 @@ select {
   border-radius: 8px;
   padding: 10px;
   width: 120px;
-  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 9px rgba(255, 255, 255, 0.5);
 }
 
 /* Adjust the styling as needed */
