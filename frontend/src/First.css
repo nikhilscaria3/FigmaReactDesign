@@ -1,5 +1,5 @@
 body {
-  /* Important: Linear gradient with black color */
+ 
   background: linear-gradient(45deg, #00C8FF, #000000, #8F00FF);
   background-size: 400% 400%;
   animation: gradientAnimation 10s linear infinite;
@@ -59,7 +59,7 @@ body {
 .eventnamecontainer {
   display: flex;
   align-items: center;
-  /* Center vertically */
+
 }
 
 .eventname,
@@ -88,7 +88,6 @@ body {
   width: 20%;
   border-radius: 5px;
   border: 2px solid #ff69b4;
-  /* Shiny pink border color */
   padding: 10px;
 }
 
@@ -139,9 +138,8 @@ body {
   border-radius: 5px;
   box-shadow: 0 0 9px rgba(255, 255, 255, 0.5);
   padding: 8px;
-  /* Black shadow */
   margin-top: auto;
-  /* Push the Logout container to the bottom */
+
 }
 
 .buttoncontainer {
@@ -157,7 +155,7 @@ body {
   background: transparent;
   border-radius: 6px;
   border: 2px solid #ff69b4;
-  /* Shiny pink border color */
+
 }
 
 .secondbutton {
@@ -168,21 +166,18 @@ body {
 .logoutbutton {
   background-color: transparent;
   display: flex;
-  /* Make the button background transparent */
   color: #fff;
   gap: 5px;
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* Set text color to white */
   margin: 5px;
-  /* Optional margin for spacing between buttons */
+
 }
 
-/* Optional: Add hover effect for better user experience */
 .logoutbutton:hover {
   background-color: rgba(255, 255, 255, 0.1);
-  /* Add a slight white background on hover */
+
 }
 
 .secondsidecontainer {
@@ -194,11 +189,10 @@ body {
   height: 100%;
   border-radius: 5px;
   border: 2px solid #ff69b4;
-  /* Shiny pink border color */
   padding: 10px;
 }
 
-/* Optional: Add some styling for better visibility */
+
 .main-container {
   padding: 20px;
 }
@@ -211,19 +205,19 @@ body {
 .secondmain-container {
   display: flex;
   flex-direction: row;
-  /* Display containers in reverse order */
+
   justify-content: space-between;
-  /* Adjust as needed */
+
 }
 
 .second-onesidecontainer,
 .second-secondsidecontainer {
   width: 48%;
-  /* Adjust the width as needed */
+
   padding: 10px;
   border-radius: 5px;
   margin: 5px;
-  /* Optional margin between containers */
+
 }
 
 .second-onesidecontainer {
@@ -260,25 +254,24 @@ body {
 
 .vector1 {
   width: 24px;
-  /* Adjust the width as needed */
+
   height: 40px;
 
 }
 
 .vector2 {
   width: 24px;
-  /* Adjust the width as needed */
+
   height: 50px;
-  /* Adjust the height as needed */
+
 }
 
 
 .sidedropdownselect,
 .sidedropdown {
   margin: 0;
-  /* Remove default margin */
   cursor: pointer;
-  /* Add a pointer cursor for better UX */
+
 }
 
 
@@ -296,7 +289,7 @@ body {
   color: #ff69b4;
   text-align: start;
   margin-right: auto;
-  /* Push the text to the bottom */
+
 }
 
 .second-secondsidecontainer {
@@ -304,7 +297,7 @@ body {
   flex-direction: column;
 }
 
-/* Additional styling for better visibility */
+
 .secondmain-container {
   margin-top: 20px;
 }
@@ -408,8 +401,6 @@ select {
 
 }
 
-
-/* Additional styling for better visibility */
 .thirdmain-container {
   margin-top: 20px;
 }
@@ -444,4 +435,3 @@ select {
   box-shadow: 0 0 9px rgba(255, 255, 255, 0.5);
 }
 
-/* Adjust the styling as needed */
